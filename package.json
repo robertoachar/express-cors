@@ -4,12 +4,11 @@
   "description": "Express Cross-Origin Resource Sharing (CORS) middleware.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/express-cors#readme",
-  "keywords": ["node"],
+  "keywords": ["node", "express", "middleware", "cors"],
   "main": "src/index.js",
   "files": ["src"],
   "scripts": {
-    "lint": "eslint src/**/*.js",
-    "start": "node src/index.js"
+    "lint": "eslint src/**/*.js --fix"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,9 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "4.18.1",
+    "eslint-config-airbnb-base": "12.1.0",
     "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.9.0",
     "eslint-plugin-prettier": "2.6.0",
     "prettier": "1.10.2"
   },
