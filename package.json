@@ -1,0 +1,29 @@
+{
+  "name": "@robertoachar/express-cors",
+  "version": "1.0.0",
+  "description": "Express Cross-Origin Resource Sharing (CORS) middleware.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/express-cors#readme",
+  "keywords": ["node"],
+  "main": "src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/express-cors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/express-cors/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.18.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.10.2"
+  },
+  "license": "MIT"
+}
