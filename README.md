@@ -25,7 +25,7 @@ $ npm i @robertoachar/express-cors
 
 ```javascript
 const express = require('express');
-const cors = require('@robertoachar/cors');
+const cors = require('@robertoachar/express-cors');
 
 const app = express();
 

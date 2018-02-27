@@ -1,12 +1,19 @@
 {
   "name": "@robertoachar/express-cors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express Cross-Origin Resource Sharing (CORS) middleware.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/express-cors#readme",
-  "keywords": ["node", "express", "middleware", "cors"],
+  "keywords": [
+    "node",
+    "express",
+    "middleware",
+    "cors"
+  ],
   "main": "src/index.js",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "lint": "eslint src/**/*.js --fix"
   },
